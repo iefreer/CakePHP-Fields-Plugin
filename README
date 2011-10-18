@@ -1,0 +1,28 @@
+# CakePHP Fields Plugin
+Make returned fields in pagination configurable
+
+## Background
+In an Open API platform development, we need to support a more flexible way of managing 
+which fields are expected to be returned in a query.
+
+## Installation
+- Clone from github : in your plugin directory type
+
+	`git clone  git://github.com/iefreer/cakephp-fields-plugin.git fields`
+
+- Download an archive from github and extract the contents into `/plugins/fields`
+
+## Usage
+- Include the component in your controller (AppController or otherwise)
+
+	`var $components = array('Fields.Fields');`
+
+- Set up actions/fields in fields/config/fields.php, it's self-explained
+
+
+## Advanced Usage
+
+
+
+## Todo
+- an easy admin inferface for managing fields
